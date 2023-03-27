@@ -1,3 +1,3 @@
-export const applyCustomCode = (externalCodeSetup: any) => {
+export const applyCustomCode = () => {
 	// call custom code api here
 };

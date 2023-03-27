@@ -1,9 +1,9 @@
 import {Observable} from "rxjs";
-import React from "react";
+
 import {Text, TextInput, View} from "react-native";
 
 export const applyCustomCode = externalCodeSetup => {
-	// call custom code api here
+	<view><text>Hello Hamza </text></view>
 
     externalCodeSetup.indexJsApi.addIndexJsFunction(() => {
 		console.log("function from external set upo");
